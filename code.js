@@ -1,10 +1,10 @@
 // helloWorld function 
-var helloWorld = function() {
+function helloWorld() {
     return "Hello, World!";
-};
+}
 
 // sayHello function
-var sayHello = function() {
-    return "Hello, World!";
-};
+function sayHello(input) {
+    return "Hello, " + input + "!";
+}
 
