@@ -5,6 +5,15 @@ function helloWorld() {
 
 // sayHello function
 function sayHello(input) {
-    return "Hello, " + input + "!";
+    if (input === true || input === false) {
+        return "Hello, World!"
+    } else {
+        return "Hello, " + input + "!"
+    }
 }
 
+function isFive(num) {
+    return num == 5;
+}
+
+console.log(isFive(5));
